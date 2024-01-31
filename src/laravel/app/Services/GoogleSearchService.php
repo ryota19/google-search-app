@@ -6,7 +6,6 @@ use GuzzleHttp\Client;
 
 class GoogleSearchService implements GoogleSearchServiceInterface
 {
-    //'https://www.googleapis.com/customsearch/v1?key=AIzaSyA64jTlspvLRQ0l72fPDo3lgTmYEJqaiUw&cx=46f4f82ceec194ee3&q=焼肉&start=5&alt=json'
     
         
     public function getResult(Request $request): array
